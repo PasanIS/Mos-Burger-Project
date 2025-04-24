@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MOS Burgers</title>
+  <link rel="stylesheet" href="styles/categories.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- Left Sidebar -->
+    <div class="sidebar left-sidebar"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <header>
+        <nav>
+          <div class="logo">
+            <video
+              src="imgs/Mos_Burger_Logo.mp4"
+              type="video/mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div>
+          <div class="nav-container">
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="categories.html">Menu</a></li>
+              <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+            <div class="signup">
+              <a href="#" class="btn">Sign Up</a>
+            </div>
+          </div>
+          <div class="nav-icons">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+        </nav>
+      </header>
+
+      <div class="label" style="padding-left: 50px; padding-top: 50px;">
+        <h1>Categories</h1>
+      </div>
+
+      <div class="categories">
+        <div class="card" data-category="burger">
+          <img src="imgs/burger1_Img.webp" alt="Burger">
+          <p>Burger</p>
+        </div>
+        <div class="card" data-category="submarine">
+          <img src="imgs/submarine1_Img.webp" alt="Submarine">
+          <p>Submarine</p>
+        </div>
+        <div class="card" data-category="fries">
+          <img src="imgs/Fries1_Img.webp" alt="Fries">
+          <p>Fries</p>
+        </div>
+        <div class="card" data-category="pasta">
+          <img src="imgs/pasta cat.webp" alt="Pasta">
+          <p>Pasta</p>
+        </div>
+        <div class="card" data-category="chicken">
+          <img src="imgs/chicken cat.webp" alt="Chicken">
+          <p>Chicken</p>
+        </div>
+        <div class="card" data-category="beverage">
+          <img src="imgs/beverage cat.webp" alt="Beverage">
+          <p>Beverage</p>
+        </div>
+      </div>
+      
+
+      <!-- Dynamic Menu Items -->
+      <div class="menu-items" id="menuItems"></div>
+
+      <footer>
+        <p>&copy; 2025 MOS Burgers. All Rights Reserved.</p>
+      </footer>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="sidebar right-sidebar"></div>
+  </div>
+
+  <script src="scripts/categories.js"></script>
+
+</body>
+</html>

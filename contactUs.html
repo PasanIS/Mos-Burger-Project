@@ -4,16 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MOS Burgers</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- <link rel="stylesheet" href="styles/categories.css" /> -->
+    <link rel="stylesheet" href="styles/contactUs.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
     />
   </head>
   <body>
@@ -51,31 +46,47 @@
             </div>
           </nav>
         </header>
+        <section class="contact-section">
+          <div class="contact-wrapper">
+            <!-- Left Column -->
+            <div class="contact-left">
+              <div class="watermark">
+                <img
+                  src="imgs/unsplash_T8SD7bwyxHU-removebg-preview.png"
+                  alt="Watermark"
+                />
+              </div>
+              <h2>Contact Us</h2>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+              </div>
 
-        <section class="hero">
-          <div class="hero-content">
-            <div class="hero-watermark">
+              <label for="message">Messages:</label>
+              <textarea
+                id="message"
+                placeholder="Type your message here..."
+              ></textarea>
+              <button class="send-btn">Send</button>
+
+              <div class="call-box">
+                <h3>Call Us :</h3>
+                <p><strong>Hot Line :</strong> 1515</p>
+                <p><strong>Phone:</strong> (011) 2 567 896</p>
+              </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="contact-right">
               <img
-                src="imgs/unsplash_T8SD7bwyxHU-removebg-preview.png"
-                alt="Watermark"
+                src="imgs/unsplash_OvNsLemoVEw-removebg-preview-11.png"
+                alt="Burger Image"
+                class="burger-img"
               />
             </div>
-            <h3>Let the burger</h3>
-            <h1>party begin</h1>
-            <p>
-              <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;Call us now ...
-              <span class="phone-number">1515</span>
-            </p>
-          </div>
-
-          <div class="hero-image">
-            <img
-              src="imgs/Wireframe_-_1-Burger_with_discount_tag-removebg-preview.png"
-              alt="Delicious Burger"
-            />
           </div>
         </section>
-
         <footer>
           <p>&copy; 2025 MOS Burgers. All Rights Reserved.</p>
         </footer>
@@ -85,6 +96,6 @@
       <div class="sidebar right-sidebar"></div>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src=""></script>
   </body>
 </html>

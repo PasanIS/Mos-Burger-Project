@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #050812, #050812, #050812, #050812, #1b1e2a, #363a48, #545969, #747a8e);
+    color: white;
+}
+
+.page-wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 200px;
+    background-color: #1a1a1a;
+}
+
+.left-sidebar {
+    border-right: 0px;
+}
+
+.right-sidebar {
+    border-left: 0px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #050812, #050812, #050812, #050812, #1b1e2a, #363a48, #545969, #747a8e);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo video {
+    width: 60px;
+    height: auto;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    z-index: 1;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+.signup {
+    margin-left: 25px;
+}
+
+.signup .btn {
+    background-color: #ff7f50;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 40px;
+    flex: 1;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.nav-icons a {
+    color: #ff7f50;
+    font-size: 20px;
+}
+
+.nav-icons i {
+    border-style: inset;
+    border-color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem;
+    justify-content: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card p {
+    margin-top: 0.8rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+    clear: both;
+  }
+  
+
+/* Menu Items */
+.menu-items {
+    display: none;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    justify-content: center;
+  }
+  
+  .menu-card {
+    background-color: #eaeaea;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .menu-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1rem;
+  }
+  
+  .menu-card p {
+    font-size: 0.85rem;
+    padding: 0 10px;
+    line-height: 1.4;
+    color: #333;
+  }  
+  
+  .menu-card .btn {
+    background-color: #ff7f50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
